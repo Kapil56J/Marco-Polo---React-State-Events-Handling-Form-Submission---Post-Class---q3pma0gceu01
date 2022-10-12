@@ -1,7 +1,7 @@
 import {React,useState} from 'react'
 import '../styles/App.css';
 const App = () => {
-  const [alternate,setAlternate]=useState();
+  const [alternate,setAlternate]=useState(false);
   const ChangeHandler=()=>{
     if(alternate===false){
       setAlternate(true)
